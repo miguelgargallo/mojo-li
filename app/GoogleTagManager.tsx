@@ -3,23 +3,23 @@ import Script from 'next/script';
 
 const GoogleTagManager: React.FC = () => {
   useEffect(() => {
-    window.dataLayer = window.dataLayer || [];
+    (window as any).dataLayer = (window as any).dataLayer || [];
     function gtag() {
-      dataLayer.push(arguments);
+      (window as any).dataLayer.push(arguments);
     }
     gtag('js', new Date());
-    gtag('config', 'G-PTZ249FFN5');
+    gtag('config', 'G-R0VJVC9SKX');
   }, []);
 
   return (
     <>
-      <Script src="https://www.googletagmanager.com/gtag/js?id=G-PTZ249FFN5" strategy="afterInteractive" />
+      <Script src="https://www.googletagmanager.com/gtag/js?id=G-R0VJVC9SKX" strategy="afterInteractive" />
       <Script id="google-tag-manager" strategy="afterInteractive">
         {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-PTZ249FFN5');
+          (window.dataLayer = window.dataLayer || []).push({
+            'gtm.start': new Date().getTime(),
+            event: 'gtm.js'
+          });
         `}
       </Script>
     </>
