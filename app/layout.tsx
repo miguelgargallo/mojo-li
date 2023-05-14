@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'Mojo ES - Mojo en castellano',
-  description: 'Primeros en el mundo en educar Mojo en castellano',
+  description: 'Primeros en el mundo en educar el lenguje de programación Mojo en castellano',
 }
 
 export default function RootLayout({
