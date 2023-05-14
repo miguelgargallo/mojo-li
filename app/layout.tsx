@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Mojo 🔥 Li',
-  description: 'Programming language for all of AI',
+  title: 'Mojo en castellano',
+  description: 'El lenguaje de programación para toda la IA',
 }
 
 export default function RootLayout({
