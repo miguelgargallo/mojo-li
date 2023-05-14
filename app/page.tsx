@@ -84,7 +84,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Mojo LI 🔥. 2023 Todos los derechos reservados. mojo.cat no es un sitio oficial ni afiliado a Modular.
+            Mojo ES. 2023 Todos los derechos reservados. mojo.cat no es un sitio oficial ni afiliado a Modular.
           </p>
         </a>
       </div>
