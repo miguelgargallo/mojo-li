@@ -4,11 +4,11 @@ import Script from 'next/script';
 const GoogleTagManager: React.FC = () => {
   useEffect(() => {
     (window as any).dataLayer = (window as any).dataLayer || [];
-    function gtag() {
-      (window as any).dataLayer.push(arguments);
+    function gtag(config: any) {
+      (window as any).dataLayer.push(config);
     }
-    gtag('js', new Date());
-    gtag('config', 'G-R0VJVC9SKX');
+    gtag({ 'js': new Date() });
+    gtag({ 'config': 'G-R0VJVC9SKX' });
   }, []);
 
   return (
