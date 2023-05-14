@@ -4,8 +4,8 @@ import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Mojo ES - Mojo en castellano',
-  description: 'Primeros en el mundo en educar el lenguje de programación Mojo en castellano',
+  title: 'Mojo ES - Primeros en el mundo en educar IA',
+  description: 'Integración de Inteligència Artificial en la educación',
 }
 
 export default function RootLayout({
